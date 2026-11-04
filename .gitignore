@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Workshop preflight: keys ship only inside the zip
+keys.env
+workshop-preflight-report-*.txt
