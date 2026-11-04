@@ -9,7 +9,7 @@ Run this before the workshop while connected to your company network. It takes a
 3. Open **Terminal > New Terminal** and run:
    - **Windows:** `python preflight.py` (if that fails, `py preflight.py`)
    - **macOS:** `python3 preflight.py`
-4. Press Enter to accept the default settings.
+4. Press Enter to accept the default settings. The API keys are already included in `keys.env`, so there is nothing to paste.
 5. When asked, open Langfuse in Google Chrome and confirm that the page loads. No sign-in is needed.
 6. Send your instructor the `workshop-preflight-report-<date>.txt` file that appears in this folder.
 
@@ -25,7 +25,7 @@ If a check fails, the script records it and carries on, so please let it finish.
 | Jupyter | Notebook execution, JupyterLab and Notebook UIs, Jupyter terminal |
 | OpenAI | api.openai.com reachable; key and a very small test chat call per workshop model |
 | Langfuse | UI and API reachable; keys accepted; page loads in Chrome |
-| Git | Git installed; clones the workshop repo |
+| Git | Git installed; clones this test repo from GitHub |
 | IDE | VS Code or Cursor with the Python and Jupyter extensions |
 | Docker | Engine running, Docker Hub pulls, build with pip install, container network |
 

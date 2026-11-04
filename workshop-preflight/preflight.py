@@ -1459,7 +1459,7 @@ def check_git():
     target = os.path.join(WORK, "clone_test")
     code, output = run([git, "clone", "--depth", "1", url, target], 240, env)
     if code == 0 and os.path.exists(os.path.join(target, ".git")):
-        record("git.clone", "PASS", "Workshop repo cloned", url)
+        record("git.clone", "PASS", "Test repo cloned", url)
     else:
         record("git.clone", "WARN", "Git clone failed", last_line(output), GIT_FALLBACK)
 
